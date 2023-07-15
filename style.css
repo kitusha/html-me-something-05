@@ -1,0 +1,75 @@
+/* element*/
+body{
+    background-color: rgb(239, 250, 241);
+    /*google font*/
+    font: size 8px;
+    font-weight: 400; 
+    color-interpolation-filters: linearRGB;
+    width: 100vw;
+    height: 100vw;
+    margin:0px;
+    padding:0px;
+    overflow-x:hidden ;
+}
+header {
+    /*main heading */
+    background-color: rgb(255, 0, 0);
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+}
+main{
+    width: 100%;
+    padding: 30px 100px /* all content way from edge */;
+    box-sizing: border-box;
+    /* make sure content adheres to paddiing setting on left and right */
+}
+
+footer{
+color: white;
+background-color: blue;
+text-align: center;
+height: auto;
+padding:  20px;
+margin:0px
+}
+h1{
+    /* funparagraph */
+    font-size: 3.5rem;
+    /*font-weight: 700;*/
+    text-transform: uppercase;
+}
+h3{
+/* font-family:headerpin',cursive; */
+font-size: 2rem;
+/* font-weight: 700; */
+color: green;
+margin: 5px; /* override default */
+}
+p{
+text-align: justify;
+margin: 5rem,0px; /* overrite */
+}
+img{
+  width:250px ; 
+  margin:10px,0px ; 
+}
+hr{
+   height: 4rem; 
+   background-color: darkgreen;
+   border: none;
+   margin: 20px 0px 0px ;
+/* adjust white space */
+}
+
+
+
+
+
+
+
+
+/*body*/
+
+
+/* classes*/
