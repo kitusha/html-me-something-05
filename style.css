@@ -1,75 +1,67 @@
-/* element*/
-body{
-    background-color: rgb(239, 250, 241);
-    /*google font*/
-    font: size 8px;
-    font-weight: 400; 
-    color-interpolation-filters: linearRGB;
+/* Global styles */
+body {
+    background-color: #effaf1;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
     width: 100vw;
-    height: 100vw;
-    margin:0px;
-    padding:0px;
-    overflow-x:hidden ;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
+
+/* Header styles */
 header {
-    /*main heading */
-    background-color: rgb(255, 0, 0);
-    height: auto;
+    background-color: rgb(162, 139, 139);
     padding: 20px;
     margin: 20px;
 }
-main{
+
+/* Main content styles */
+main {
     width: 100%;
-    padding: 30px 100px /* all content way from edge */;
-    box-sizing: border-box;
-    /* make sure content adheres to paddiing setting on left and right */
+    padding: 30px 100px; /* padding on left and right */
+    box-sizing: border-box; /* Ensure padding doesn't affect overall width */
 }
 
-footer{
-color: white;
-background-color: blue;
-text-align: center;
-height: auto;
-padding:  20px;
-margin:0px
+/* Footer styles */
+footer {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
 }
-h1{
-    /* funparagraph */
+
+/* Heading styles */
+h1 {
     font-size: 3.5rem;
-    /*font-weight: 700;*/
     text-transform: uppercase;
 }
-h3{
-/* font-family:headerpin',cursive; */
-font-size: 2rem;
-/* font-weight: 700; */
-color: green;
-margin: 5px; /* override default */
-}
-p{
-text-align: justify;
-margin: 5rem,0px; /* overrite */
-}
-img{
-  width:250px ; 
-  margin:10px,0px ; 
-}
-hr{
-   height: 4rem; 
-   background-color: darkgreen;
-   border: none;
-   margin: 20px 0px 0px ;
-/* adjust white space */
+
+h3 {
+    font-size: 2rem;
+    color: green;
+    margin: 5px 0; /* top and bottom margin */
 }
 
+/* Paragraph styles */
+p {
+    text-align: justify;
+    margin: 5rem 0; /* top and bottom margin */
+}
 
+/* Image styles */
+img {
+    width: 250px;
+    margin: 10px 0; /* top and bottom margin */
+}
 
-
-
-
-
-
-/*body*/
-
-
-/* classes*/
+/* Horizontal rule styles */
+hr {
+    height: 4rem;
+    background-color: darkgreen;
+    border: none;
+    margin: 20px 0 0; /* top margin */
+}
