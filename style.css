@@ -1,67 +1,65 @@
-/* Global styles */
+
+
+/* Use the element selector to give the <body> element a margin value of 8px and a display type of block. */
 body {
-    background-color: #effaf1;
-    font-size: 16px;
-    font-weight: 400;
-    color: black;
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+    margin: 8px;
+    display: block;
 }
 
-/* Header styles */
-header {
-    background-color: rgb(162, 139, 139);
-    padding: 20px;
-    margin: 20px;
+/* Give a heading on your page the id of mainHeading and use the id selector in styles.css to give it a color value of red. */
+#mainHeading {
+    color: red;
 }
 
-/* Main content styles */
-main {
-    width: 100%;
-    padding: 30px 100px; /* padding on left and right */
-    box-sizing: border-box; /* Ensure padding doesn't affect overall width */
-}
-
-/* Footer styles */
-footer {
-    color: white;
-    background-color: blue;
-    text-align: center;
-    padding: 20px;
-    margin: 0;
-}
-
-/* Heading styles */
-h1 {
-    font-size: 3.5rem;
-    text-transform: uppercase;
-}
-
-h3 {
-    font-size: 2rem;
+/* Give a paragraph on your page the id of testP and a class name of funParagraph. Use the class selector in styles.css to give it a color value of green. */
+p.funParagraph {
     color: green;
-    margin: 5px 0; /* top and bottom margin */
 }
 
-/* Paragraph styles */
-p {
-    text-align: justify;
-    margin: 5rem 0; /* top and bottom margin */
+/* Use margin and padding to space your elements in a visually pleasing manner. */
+header {
+    padding: 20px;
+    text-align: center;
 }
 
-/* Image styles */
-img {
-    width: 250px;
-    margin: 10px 0; /* top and bottom margin */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
 }
 
-/* Horizontal rule styles */
-hr {
-    height: 4rem;
-    background-color: darkgreen;
-    border: none;
-    margin: 20px 0 0; /* top margin */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Additional styling for the image and the article containing it */
+article img {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+article {
+    text-align: center;
 }
