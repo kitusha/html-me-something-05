@@ -25,7 +25,7 @@ body {
   }
   
   h2 {
-    color: #333;
+    color: #323030;
     border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
   }
@@ -37,26 +37,25 @@ body {
   
   /* Heading with id mainHeading */
   #mainHeading {
-    color: red;
+    color: rgb(137, 38, 38);
   }
   
   /* Paragraph with id testP and class funParagraph */
-  p.funParagraph {
-    color: green;
+  .funParagraph {
+    color: rgb(32, 179, 32);
   }
   
   footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #494343;
+    color: #d7c7c7;
     text-align: center;
     padding: 10px;
   }
   
-  img.story-image {
-    width: 80px;
-    height: 50px;
-    object-fit: cover;
-    margin: 0;
+  img {
+    /*IMAGE */
+    width: 180px; 
+    margin: 10px 0px;
   }
   
   /* YouTube video link style */
@@ -68,4 +67,9 @@ body {
   main a:hover {
     text-decoration: underline;
   }
-  
+  /* classes */
+    .right {
+        float: right ;
+        margin-left: 20px;
+
+    }
