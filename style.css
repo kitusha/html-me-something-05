@@ -1,65 +1,71 @@
 
-
-/* Use the element selector to give the <body> element a margin value of 8px and a display type of block. */
+/* element*/
 body {
     margin: 8px;
     display: block;
-}
-
-/* Give a heading on your page the id of mainHeading and use the id selector in styles.css to give it a color value of red. */
-#mainHeading {
-    color: red;
-}
-
-/* Give a paragraph on your page the id of testP and a class name of funParagraph. Use the class selector in styles.css to give it a color value of green. */
-p.funParagraph {
-    color: green;
-}
-
-/* Use margin and padding to space your elements in a visually pleasing manner. */
-header {
-    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
     text-align: center;
-}
-
-main {
+    padding: 20px;
+  }
+  
+  main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-}
-
-section {
+  }
+  
+  section {
     margin-bottom: 30px;
-}
-
-h2 {
+  }
+  
+  h2 {
     color: #333;
     border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
-}
-
-ul {
+  }
+  
+  ul {
     list-style-type: disc;
     margin-left: 20px;
-}
-
-footer {
+  }
+  
+  /* Heading with id mainHeading */
+  #mainHeading {
+    color: red;
+  }
+  
+  /* Paragraph with id testP and class funParagraph */
+  p.funParagraph {
+    color: green;
+  }
+  
+  footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px;
-}
-
-
-/* Additional styling for the image and the article containing it */
-article img {
-    display: block;
-    max-width: 100%;
-    margin: 20px auto;
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-article {
-    text-align: center;
-}
+  }
+  
+  img.story-image {
+    width: 80px;
+    height: 50px;
+    object-fit: cover;
+    margin: 0;
+  }
+  
+  /* YouTube video link style */
+  main a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  main a:hover {
+    text-decoration: underline;
+  }
+  
